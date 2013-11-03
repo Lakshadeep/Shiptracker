@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:contentDescription="@string/info" 
+    android:background="@drawable/backg">
+    
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="88dp"
+        android:text="General Instructions \n  \n \n1.Once the application is installed on your phone ensure that you are connected to internet during 1st start\n
+ 2.Whenever there is internet connection try to download the part of the map in which you are going to travel by browsing that part of the map"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+</ScrollView>
